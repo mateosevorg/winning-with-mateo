@@ -1,0 +1,32 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication3
+{
+    class Winning
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("User, do you feel like winning? (y/n)");
+            {
+
+                //1. save response from user
+                string userResponse;
+                userResponse = Console.ReadLine();
+                //2. deliver response from console
+                if (userResponse == "y")
+                    Console.WriteLine("Great! Let's get started!");
+                if (userResponse == "n")
+                    Console.WriteLine("Too bad. Adios.");
+                else if (userResponse != "y" && userResponse != "n")
+                    Console.WriteLine("You are SPECIAL. Adios.");
+                //3. open up visual studio and open up web page to MSDN
+               
+            }
+            Console.ReadLine();
+        }
+    }
+}
